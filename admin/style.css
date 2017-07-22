@@ -1,0 +1,288 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
+@import url('https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Ek Mukta', sans-serif;
+    color: #666;
+    background-color: #fff;
+	font-size: 16px;
+    line-height: 1.6em;
+	font-weight: 400;
+}
+
+#main {
+    min-height: 520px;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 70%;
+}
+.main_border {
+    position: relative;
+
+}
+p {
+    font: 14px "Verdana";
+    color: #666666;
+    margin: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-left: 15px;
+    color: #666666;
+}
+
+#left {
+    float: left;
+    width: 30%;
+    display: inline-block;
+    background-color: #f4f4f4;
+}
+
+#right {
+    float: left;
+    width: 60%;
+    padding-top: 10px;
+    margin-left: 30px;
+    /*overflow-y: scroll;*/
+    vertical-align: top;
+    background-color: white;
+    display: inline-block;
+}
+
+
+/* --- logo --- */
+.site-logo {	
+	margin-top:40px;
+	margin-bottom:40px;
+    float: left;
+}
+
+.site-logo a.brand {
+	color: #2487cd;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	
+}
+.site-logo a.brand:hover {
+	text-decoration:none;
+}
+
+
+.slider {
+	padding-top:50px;
+}
+
+.slider img {
+    width: 100%;
+}
+
+#carousel-slider {
+  position: relative;
+    margin-bottom: -110px;
+}
+
+#carousel-slider .carousel-indicators {
+  bottom: -25px;
+}
+
+#carousel-slider .carousel-indicators li {
+  border: 1px solid #ffbd20;
+}
+
+#carousel-slider a i {
+  border: 1px solid #2487cd;;
+  border-radius:50%;
+  font-size: 30px;
+  height: 50px;
+  padding: 8px;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  color:#fff;
+   background:#2487cd;
+}
+
+#carousel-slider a i:hover {
+  background:#2487cd;
+  color:#fff;
+  border: 1px solid #2487cd;
+}
+
+#carousel-slider 
+.carousel-control {
+  width:inherit;
+}
+
+#carousel-slider .carousel-control.left i {
+  left:70px
+}
+
+#carousel-slider .carousel-control.right i {
+  right: 70px;
+}
+
+#carousel-slider
+.carousel-control.left, 
+#carousel-slider
+.carousel-control.right {
+  background: none;
+}
+
+.center h2{
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align:center;
+  color:#000;
+  text-transform:uppercase;
+}
+
+#footer {
+  color: #fff;
+  background: #2487cd;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer a:hover {
+  color: #fff;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align:center;
+}
+
+#footer ul > li {
+	margin-top:20px;
+	margin-bottom:30px;
+  display: inline-block;
+  margin-left: 15px;
+  text-align:center;
+}
+.midnight-blue {
+	text-align:center;
+}
+
+.text-center {
+	margin-bottom:20px;
+	font-size:30px;
+
+}
+.search_t {
+    font-size: 11px;
+}
+.search_b {
+    margin-top: 6px;
+    margin-left: 90px;
+}
+
+.nav_t {
+    border-bottom:1px solid #424242;
+    border-top:3px solid #FEE203;
+    border-right:1px solid #424242;
+    background-color:#f6f6f6;
+    background-position:left;
+    background-repeat:no-repeat;
+    padding-left:10px;
+
+}
+
+.nav_title {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.number {
+    display: inline-block;
+vertical-align: bottom;
+}
+.comments {
+
+    font-family:Verdana;
+    font-size:11px;
+    color: #666666;
+}
+
+.pvote {
+    border: 1px solid gray;
+    background-color: #f6f6f6;
+    padding: 5px;
+}
+.sub_vote {
+    border: 1px solid gray;
+    background-color: #f6f6f6;
+    width: 60px;
+    margin-left: 10px;
+}
+.post {
+    border: 1px solid #cccccc;
+    width: 95%;
+}
+
+.post_title {
+    background-color: #f6f6f6;
+}
+
+.post_name {
+    font-weight: bold;
+    margin: 7px 0;
+}
+.post_adds {
+    font-size: 11px;
+    margin: 7px 0;
+    color: #424242;
+}
+.post_view {
+    font-size: 11px;
+    color: #666666;
+}
+.mini {
+    margin: 2px 10px 0 10px;
+    border: 1px solid gray;
+}
+.post_title2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #FEB800;
+    background-color: #f6f6f6;
+}
+.post_adds2 {
+    font-size: 11px;
+    margin: 10px 0 10px 10px;
+    font-weight: bold;
+}
+.post_comment {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FEB800;
+
+}
+.post_comment_add {
+    font-size: 11px;
+}
+.post_div {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    margin: 15px;
+}
+.post_div p {
+    margin-left: 0;
+}
+.text {
+    margin-left: 12px;
+}
+.title {
+    font-size: 25px;
+    margin: 20px 0;
+}
